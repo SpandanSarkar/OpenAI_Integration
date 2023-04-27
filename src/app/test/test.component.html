@@ -1,0 +1,11 @@
+<form [formGroup]="form">
+    <input type="text" formControlName="input_text" placeholder="Ask Anything!">
+</form>
+
+<button (click)="getData()">Get Data</button>
+
+<mat-card>
+  <mat-card-content>
+    {{result}}
+  </mat-card-content>
+</mat-card>
